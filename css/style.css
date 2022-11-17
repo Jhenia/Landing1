@@ -1703,6 +1703,9 @@ body.modal-active {
 }
 
 .logos__box {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
