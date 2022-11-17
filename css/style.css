@@ -1718,7 +1718,7 @@ body.modal-active {
 }
 
 .logos__box img {
-  margin-left: 12px;
+  margin-left: 24px;
 }
 
 *,
@@ -2369,6 +2369,10 @@ a {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1023px) {
+  .logos__box img {
+    margin-left: 12px;
+  }
+
   .header__menu ul {
     -webkit-box-align: start !important;
         -ms-flex-align: start !important;
